@@ -1,0 +1,7 @@
+.env
+data1.csv
+__pycache__/
+migrations/
+db.sqlite3
+myvenv/
+chroma_db/

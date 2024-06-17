@@ -69,6 +69,7 @@ const MessageInput: React.FC<MessageInputProps> = ({
 
   const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter") {
+
       handleSendMessage();
     }
   };

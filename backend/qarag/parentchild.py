@@ -1,6 +1,8 @@
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
-os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 from langchain_community.document_loaders import CSVLoader
 from langchain.vectorstores import Chroma
